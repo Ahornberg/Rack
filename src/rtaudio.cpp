@@ -41,7 +41,7 @@ struct RtAudioDevice : audio::Device {
 	RtAudio::StreamParameters outputParameters;
 	RtAudio::StreamOptions options;
 	int blockSize = 0;
-	float sampleRate = 0;
+	float sampleRate = 44100;
 
 	RtAudioDevice(RtAudio::Api api, int deviceId) {
 		this->api = api;

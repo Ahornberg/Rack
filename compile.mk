@@ -104,4 +104,4 @@ ifdef ARCH_MAC
 endif
 
 build/%.html: %.md
-	markdown $< > $@
+

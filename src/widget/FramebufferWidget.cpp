@@ -216,7 +216,7 @@ void FramebufferWidget::render(math::Vec scale, math::Vec offsetF, math::Rect cl
 		internal->fbSize = newFbSize;
 	}
 	if (!internal->fb) {
-		WARN("Framebuffer of size (%f, %f) could not be created for FramebufferWidget %p.", VEC_ARGS(internal->fbSize), this);
+		// WARN("Framebuffer of size (%f, %f) could not be created for FramebufferWidget %p.", VEC_ARGS(internal->fbSize), this);
 		return;
 	}
 
